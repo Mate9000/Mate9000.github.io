@@ -29,6 +29,13 @@ li {
     font-size: 16px;
     margin-right: 0px;
 }
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    width: 100%;
+}
 
 .navbar {
     background-color: #00171B;
@@ -39,13 +46,6 @@ li {
     width: 100%;
 }
 
-.navbar a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 18px;
-    width: 100%;
-}
 
 .container {
     display: flex;
@@ -111,7 +111,7 @@ li {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-.card-of-three-boxes h3 {
+.card-of-three-boxes a {
     text-align: center;
     margin-top: 0;
     margin-bottom: 10px;
@@ -158,6 +158,14 @@ li {
         order: 3;
     }
 }
+.hobby-area{
+    background-color: #0a0a20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
 .container-of-hobby-area {
     width: 90%;
     max-width: 320px;
@@ -190,7 +198,6 @@ li {
     margin-top: -5px;
     position: relative;
     z-index: 2;
-    cursor: pointer;
 }
 
 .info-box {
@@ -212,5 +219,4 @@ li {
     text-align: center;
     margin-top: 20px;
     width: 50%;
-    cursor: pointer;
 }
