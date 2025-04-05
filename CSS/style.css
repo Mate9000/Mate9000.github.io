@@ -4,6 +4,7 @@ body {
     background-color: #060824;
     color: white;
 }
+
 ul {
     list-style-type: none;
     margin: 0px;
@@ -14,6 +15,7 @@ ul {
     margin-top: 0px;
     padding: 0px;
 }
+
 li {
     padding: 0px 0px;
     border: none;
@@ -21,6 +23,7 @@ li {
     font-size: 16px;
     margin-right: 0px;
 }
+
 .navbar {
     background-color: #00171B;
     padding: 10px;
@@ -29,6 +32,7 @@ li {
     align-items: center;
     width: 100%;
 }
+
 .navbar a {
     color: white;
     text-decoration: none;
@@ -36,37 +40,115 @@ li {
     font-size: 18px;
     width: 100%;
 }
+
 .container {
     display: flex;
     justify-content: space-around;
     padding: 20px;
 }
+
 .box {
     background-color: #00333D;
     padding: 20px;
     border-radius: 10px;
     width: 45%;
 }
+
 .box h1 {
     font-size: 36px;
     margin-bottom: 20px;
 }
+
 .box p {
     font-size: 18px;
 }
+
 .placeholder {
     background-color: #d3d3d3;
     border-radius: 10px;
     width: 45%;
     height: 230px;
 }
+
 @media (max-width: 430px) {
     .container {
         flex-direction: column-reverse;
         align-items: center;
     }
-    .box, .placeholder {
+
+    .box,
+    .placeholder {
         width: 90%;
         margin-bottom: 20px;
+    }
+}
+.body-of-three-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+.container-of-three-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 800px;
+}
+
+.card-of-three-boxes {
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    margin: 0;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-of-three-boxes h3 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.card-of-three-boxes p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.orange-card {
+    background-color: #c25e00;
+}
+
+.red-card {
+    background-color: #c52727;
+}
+
+.green-card {
+    background-color: #389438;
+}
+
+@media (max-width: 400px) {
+    .container-of-three-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-of-three-boxes {
+        width: 80%;
+    }
+
+    .orange-card {
+        order: 1;
+    }
+
+    .red-card {
+        order: 2;
+    }
+
+    .green-card {
+        order: 3;
     }
 }
