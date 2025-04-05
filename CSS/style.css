@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -151,4 +157,60 @@ li {
     .green-card {
         order: 3;
     }
+}
+.container-of-hobby-area {
+    width: 90%;
+    max-width: 320px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hobby-image {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.hobby-image img {
+    width: 100%;
+    display: block;
+}
+
+.red-button {
+    background-color: #990000;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 80%;
+    margin-top: -5px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.info-box {
+    background-color: #006655;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.contact-button {
+    background-color: #884400;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+    width: 50%;
+    cursor: pointer;
 }
