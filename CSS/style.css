@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -29,6 +30,7 @@ li {
     font-size: 16px;
     margin-right: 0px;
 }
+
 a {
     color: white;
     text-decoration: none;
@@ -60,6 +62,20 @@ a {
     width: 45%;
 }
 
+.box-2 {
+    margin-top: 100px;
+    background-color: #00333D;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box-2 p {
+    font-size: 25;
+}
+
 .box h1 {
     font-size: 36px;
     margin-bottom: 20px;
@@ -88,12 +104,14 @@ a {
         margin-bottom: 20px;
     }
 }
+
 .body-of-three-boxes {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 50vh;
 }
+
 .container-of-three-boxes {
     display: flex;
     flex-wrap: wrap;
@@ -158,17 +176,20 @@ a {
         order: 3;
     }
 }
-.hobby-area{
+
+.hobby-area {
     background-color: #0a0a20;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50vh;
+    margin-bottom: 200px;
+    margin-top: 100px;
 }
 
 .container-of-hobby-area {
     width: 90%;
-    max-width: 320px;
+    max-width: 600px;
     background-color: transparent;
     display: flex;
     flex-direction: column;
@@ -219,4 +240,72 @@ a {
     text-align: center;
     margin-top: 20px;
     width: 50%;
+}
+.four-button-equalizer{
+    background-color: #0a0a20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.card-link {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    margin-top: auto;
+}
+
+.card-link::after {
+    content: "→";
+    margin-left: 5px;
+}
+
+.red {
+    background-color: #990000;
+}
+
+.green {
+    background-color: #006600;
+}
+
+.brown {
+    background-color: #8B4513;
+}
+
+.dark-green {
+    background-color: #004400;
 }
