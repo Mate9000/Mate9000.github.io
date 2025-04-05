@@ -241,7 +241,8 @@ a {
     margin-top: 20px;
     width: 50%;
 }
-.four-button-equalizer{
+
+.four-button-equalizer {
     background-color: #0a0a20;
     display: flex;
     justify-content: center;
@@ -250,6 +251,7 @@ a {
     padding: 20px;
     margin-bottom: 50px;
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -308,4 +310,72 @@ a {
 
 .dark-green {
     background-color: #004400;
+}
+
+.body-of-hobby {
+    font-family: Arial, sans-serif;
+    background-color: #060824;
+    color: #ffffff;
+    margin: 0;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+.content-of-hobby {
+    width: 100%;
+    text-align: center;
+}
+
+.intro-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    background-color: #0d3041;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.button-row-hobby {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.button-row-hobby a {
+    background-color: #0d3041;
+    color: white;
+    padding: 10px 0;
+    border-radius: 8px;
+    text-decoration: none;
+    width: 30%;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.personality-text {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 0;
+    background-color: #0d3041;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+.header-image-of-hobby {
+    width: 100%;
+    height: 100px;
+    background-color: #d8d8d8;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
