@@ -379,3 +379,46 @@ h2 {
     border-radius: 20px;
     margin-bottom: 20px;
 }
+
+.body-of-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0a0a23;
+}
+
+.container-of-contact {
+    max-width: 500px;
+    width: 90%;
+}
+
+.message-box {
+    background-color: #0e3a42;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.btn-contact {
+    background-color: #0e3a42;
+    color: white;
+    padding: 12px 0;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    flex: 1;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
